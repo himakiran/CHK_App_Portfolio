@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void sendMessage(View view) {
         // Do something in response to button click
-        Button b = (Button)view;
+        Button b = (Button) view;
         String buttonText = b.getText().toString();
         LayoutInflater inflater = getLayoutInflater();
         View layout = inflater.inflate(R.layout.custom_toast,
