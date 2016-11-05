@@ -3,12 +3,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg"
+    android:orientation="vertical"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:orientation="vertical"
-    android:background="@color/bg"
     tools:context="com.example.android.chkappportfolio.MainActivity">
 
     <TextView
@@ -18,105 +18,45 @@
         android:paddingLeft="@dimen/activity_horizontal_margin"
         android:paddingRight="@dimen/activity_horizontal_margin"
         android:paddingTop="@dimen/activity_vertical_margin"
+        android:text="@string/title"
         android:textAlignment="center"
         android:textSize="24sp"
-        android:textStyle="bold"
-        android:text="@string/title"/>
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/pm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/element_margin_ver"
-        android:layout_marginBottom="@dimen/element_margin_ver"
-        android:layout_marginLeft="@dimen/element_margin"
-        android:layout_marginRight="@dimen/element_margin"
-        android:paddingTop="@dimen/element_margin_pad"
-        android:paddingBottom="@dimen/element_margin_pad"
-        android:textAlignment="center"
-        android:textSize="@dimen/element_text_size"
-        android:textStyle="bold"
-        android:background="@color/ele_bg"
-        android:text="POPULAR MOVIES"
-        android:onClick="sendMessage"/>
+        style="@style/buttonStyle"
+        android:onClick="sendMessage"
+        android:text="POPULAR MOVIES" />
 
     <Button
         android:id="@+id/sh"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/element_margin_ver"
-        android:layout_marginLeft="@dimen/element_margin"
-        android:layout_marginRight="@dimen/element_margin"
-        android:paddingTop="@dimen/element_margin_pad"
-        android:paddingBottom="@dimen/element_margin_pad"
-        android:textAlignment="center"
-        android:textSize="@dimen/element_text_size"
-        android:textStyle="bold"
-        android:background="@color/ele_bg"
-        android:text="STOCK HAWK"
-        android:onClick="sendMessage"/>
+        style="@style/buttonStyle"
+        android:onClick="sendMessage"
+        android:text="STOCK HAWK" />
 
     <Button
         android:id="@+id/bb"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/element_margin_ver"
-        android:layout_marginLeft="@dimen/element_margin"
-        android:layout_marginRight="@dimen/element_margin"
-        android:paddingTop="@dimen/element_margin_pad"
-        android:paddingBottom="@dimen/element_margin_pad"
-        android:textAlignment="center"
-        android:textSize="@dimen/element_text_size"
-        android:textStyle="bold"
-        android:background="@color/ele_bg"
-        android:text="BUILD IT BIGGER"
-        android:onClick="sendMessage"/>
+        style="@style/buttonStyle"
+        android:onClick="sendMessage"
+        android:text="BUILD IT BIGGER" />
 
     <Button
         android:id="@+id/mm"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/element_margin_ver"
-        android:layout_marginLeft="@dimen/element_margin"
-        android:layout_marginRight="@dimen/element_margin"
-        android:paddingTop="@dimen/element_margin_pad"
-        android:paddingBottom="@dimen/element_margin_pad"
-        android:textAlignment="center"
-        android:textSize="@dimen/element_text_size"
-        android:textStyle="bold"
-        android:background="@color/ele_bg"
-        android:text="MAKE YOUR APP MATERIAL"
-        android:onClick="sendMessage"/>
+        style="@style/buttonStyle"
+        android:onClick="sendMessage"
+        android:text="MAKE YOUR APP MATERIAL" />
 
     <Button
         android:id="@+id/gq"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/element_margin_ver"
-        android:layout_marginLeft="@dimen/element_margin"
-        android:layout_marginRight="@dimen/element_margin"
-        android:paddingTop="@dimen/element_margin_pad"
-        android:paddingBottom="@dimen/element_margin_pad"
-        android:textAlignment="center"
-        android:textSize="@dimen/element_text_size"
-        android:textStyle="bold"
-        android:background="@color/ele_bg"
-        android:text="GO UBIQUITOUS"
-        android:onClick="sendMessage"/>
+        style="@style/buttonStyle"
+        android:onClick="sendMessage"
+        android:text="GO UBIQUITOUS" />
 
     <Button
         android:id="@+id/cp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="@dimen/element_margin_ver"
-        android:layout_marginLeft="@dimen/element_margin"
-        android:layout_marginRight="@dimen/element_margin"
-        android:paddingTop="@dimen/element_margin_pad"
-        android:paddingBottom="@dimen/element_margin_pad"
-        android:textAlignment="center"
-        android:textSize="@dimen/element_text_size"
-        android:textStyle="bold"
+        style="@style/buttonStyle"
         android:background="@color/elelast_bg"
-        android:text="CAPSTONE: CHK APP"
-        android:onClick="sendMessage"/>
+        android:onClick="sendMessage"
+        android:text="CAPSTONE: CHK APP" />
 </LinearLayout>
